@@ -63,3 +63,5 @@
 5. Detectar tipo de Datos para todas las columnas
 6. Reordenar las columnas para mayor legibildiad al analizar la tabla
 7. Añadir un índice para cada registro en favor de la ausencia de identificadores.
+8. Se añadieron dos columnas "MES DE CONVENIO" y "MES DE VIGENCIA", debido a que el tiempo entre ambos es de 1 año, añadir los meses como datos derivados de la fecha, permitirá un analizar más preciso temporalmente.
+9. Se normlizaron los nombres de las columnas todos en letras capitales y sin guiones bajos.
