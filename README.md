@@ -14,9 +14,50 @@
 4. Eliminar filas con error:
 	- <1% de filas con errores en la columna CONVOCATORIA
 
-5. Detectar tipo de Datos para todas las columnas
-6. Eliminar Columnas irrelevantes:
+
+5. Eliminar Columnas irrelevantes:
    - Columna OBSERVACIONES, ya que contiene comentarios muy variados entre sí sin algún patrón alguno o relevancia para el estudio
    - Columna ESTADO, pues todos los sujetos comparten el mismo estado 'ACTIVO'
-	- Coluna TIPO INSTITUCIÓN , pues todas las filas comparten describen el mismo tipo 'S_I'
+   - Coluna TIPO INSTITUCIÓN , pues todas las filas comparten describen el mismo tipo 'S_I'
+6. Reemplazar 'manualmente' todos los caracteres no reconocidos por los respectivos en cada una de las columnas alusivas (ya que con scripts se perdían datos), debido a que el dataset venía con caracteres corruptos originalmente:
+   - Columnas afectadas:
+     - DEPARTAMENTO DE RESIDENCIA
+     - CIUDAD DE RESIDENCIA
+     - NOMBRE IE
+     - PROGRAMA ACADEMICO
+       
+   - Palabras afactadas:
+   		
+	   - PE�OL > PEÑOL
+	   - PE�ON > PEÑON
+	   - PI�ON > PIÑON
+	   - MONTA�ITA > MONTAÑITA
+	   - PE�A > PEÑA
+	   - MO�ITOS > MOÑITOS
+	   - PIJI�O > PIJIÑO
+	   - NARI�O > NARIÑO
+	   - TUCH�N > TUCHÍN
+	   - OCA�A > OCAÑA
+	   - CARRE�O > CARREÑO
+	   - SALDA�A > SALDAÑA
+	   - DISE�O > DISEÑO
+	   - SE�ORA > SEÑORA
+	   - NU�EZ > NUÑEZ
+	   - BRICE�O > BRICEÑO
+	   - ENESE�ANZA > ENSEÑANZA
+	   - CAMPA�A > CAMPAÑA
+	   - PE�ALISA > PEÑALISA
+	   - LE�A > LEÑA
+	   - MA�ANA > MAÑANA
+	   - CA�ASGORDAS > CAÑASGORDAS
+	   - CA�O > CAÑO
+	   - CONVE�AS > COVEÑAS
+	   - CAMPI�A > CAMPIÑA
+	   - YA�EZ > YAÑEZ
+	   - MALA�A > MALAÑA
+	   - ESPA�OL � ESPAÑOL
+	   - NI�O > NIÑO
+     
+   
     
+5. Detectar tipo de Datos para todas las columnas
