@@ -61,3 +61,5 @@
    
     
 5. Detectar tipo de Datos para todas las columnas
+6. Reordenar las columnas para mayor legibildiad al analizar la tabla
+7. Añadir un índice para cada registro en favor de la ausencia de identificadores.
