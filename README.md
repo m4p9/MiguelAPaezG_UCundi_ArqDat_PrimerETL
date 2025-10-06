@@ -76,7 +76,7 @@ El uso del **Z-Score y del presupuesto per cápita** permitió medir de forma ob
 > El **informe PDF** resume los principales hallazgos y visualizaciones del tablero final.
 
 ---
-##  ✅ PASOS APLICADOS
+##  ✅ PASOS APLICADOS DURANTE EL ETL
 
 
 1. **Eliminar** las **columans** vacías:
