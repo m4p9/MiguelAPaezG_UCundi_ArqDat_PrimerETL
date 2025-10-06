@@ -1,8 +1,17 @@
 # MiguelAPaezG_UCundi_ArqDat_PrimerETL
 
+### Miguel Ángel Páez García<br>
+
+Programa de Ingeniería de Software, Facultad de Ingeniería<br>
+Universidad de Cundinamarca - Extensión Soacha<br>
+Grupo INFSOFT702, Arquitectura de Datos CAD652022720<br>
+Jorge Armando Jurado Peralta<br>
+Septiembre de 2025<br>
 
 
-# 💻 Análisis Socioeconómico del Programa Talento TI (2012–2017)
+----
+
+# 💻 Análisis del Perfil Poblacional respecto a otras Variables en el Programa Talento TI (2012–2017)
 
 ## 🧭 Introducción
 
@@ -41,7 +50,7 @@ El uso del **Z-Score y del presupuesto per cápita** permitió medir de forma ob
 
 ---
 
-## 🧠 Tecnologías Utilizadas
+## ⚙️ Tecnologías Utilizadas
 
 - **Power BI Desktop**
 - **Power Query (ETL)**
@@ -51,10 +60,23 @@ El uso del **Z-Score y del presupuesto per cápita** permitió medir de forma ob
 ---
 
 ## 🗂️ Estructura del Proyecto
-
 --
+📁 TalentoTI_ETL_Analisis
+┣ 📄 README.md ← Descripción general y documentación del proyecto
+┣ 📊 MiguelAPaezG_UCundi_ArqDat_PrimerETL1.pbix ← Archivo principal de Power BI con el modelo, cálculos DAX y visualizaciones
+┣ 📈 MiguelAPaezG_UCundi_ArqDat_PrimerETL1_Informe.pdf ← Informe final del análisis con visualizaciones y conclusiones
+┣ 📄 Talento_TI_20250919.csv ← Dataset original sin procesar
+┣ 📄 Talento_TI_20250919_CSVUTF8_ETL.csv ← Dataset limpio exportado en formato CSV UTF-8 (tras el proceso ETL)
+┗ 📄 Talento_TI_20250919_CSVUTF8_ETL.xlsx ← Dataset limpio en formato Excel UTF-8 (versión tabular para compatibilidad)
 
 
+> 📘 Nota:  
+> Los archivos con sufijo **_ETL** representan los resultados del proceso de limpieza, normalización y transformación de datos.  
+> El archivo **.pbix** contiene el modelo Power BI con las columnas calculadas, medidas DAX, visualizaciones y reportes interactivos.  
+> El **informe PDF** resume los principales hallazgos y visualizaciones del tablero final.
+
+---
+##  ✅ PASOS APLICADOS
 
 
 1. Eliminar las columans vacías:
