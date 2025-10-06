@@ -16,7 +16,6 @@
    - <1% de filas con errores en la columna CONVOCATORIA
    
 
-
 5. Eliminar Columnas irrelevantes:
    - Columna OBSERVACIONES, ya que contiene comentarios muy variados entre sí sin algún patrón alguno o relevancia para el estudio
    - Columna ESTADO, pues todos los sujetos comparten el mismo estado 'ACTIVO'
@@ -60,7 +59,7 @@
 	   - ESPA�OL � ESPAÑOL
 	   - NI�O > NIÑO
     
-7. Detectar tipo de Datos para todas las columnas
+7. Detectar tipo de Datos para todas las columnas+
 8. Reordenar las columnas para mayor legibildiad al analizar la tabla
 9. Añadir un índice para cada registro en favor de la ausencia de identificadores.
 10. Añadier dos columnas "MES DE CONVENIO" y "MES DE VIGENCIA", debido a que el tiempo entre ambos es de 1 año, añadir los meses como datos derivados de la fecha, permitirá un analizar más preciso temporalmente.
@@ -69,3 +68,17 @@
 13.  Añadir la columna calculada MONTO PER CAPITA que relaciona propocionalmente la cantidad del monto que le correspondería cada persona según la META del convenio asocidado al MONTO COMPROMETIDO
 14.  Añadir las columnas calculadas globales de tipo Z SCORE (que permite conocer qué tanto se desvía la el dato en base al promedio global) respecto al MONTO COMPROMETIDO y MONTO PER CAPITA
 15.  Añadir las columnas calculadas globales de tipo ranking  RANKING DE MONTO COMPROMETIDO y  RANKING DE MONTO PER CAPITA con Skip (cuál teniendo en cuenta valores empatados, calcula la posición real de siguiente valor único en base a cuántos empates anteriores se hallaron)
+16. Cambiar el tipo de dato del "ESTRATO" a 'Texto' para poder medirlo como categoría en vez de cifra.
+17. Cambiar el tipo de dato del "INDICE" a 'Texto' ya que e sun identificador no una cifra que se operara.
+18. Crear Informes Visuales:
+    - Vista General de la Inversión del Programa Talento TI (2012 a 2017)
+    - Vista General de la Inversión por Género en el Tiempo del Programa Talento TI (2012 a 2017)
+    - Vista General de la Inversión por Estrato en el Tiempo del Programa Talento TI (2012 a 2017)
+    - Vista General de la Inversión por Institución del Programa Talento TI (2012 a 2017)
+    - Vista General de la Inversión por Nivel del Porgrama Académico del Programa Talento TI (2012 a 2017)
+    - Vista General de la Inversión por Porgrama Académico del Programa Talento TI (2012 a 2017)
+    - Vista General del Z Score por Institución Educativa del Programa Talento TI (2012 a 2017)
+    - Vista General del Z Score por Programa Académico del Programa Talento TI (2012 a 2017)
+19. Exportar los informes a PDF
+20. Exportar el dataset transformado ediante el ETL realizado
+    
