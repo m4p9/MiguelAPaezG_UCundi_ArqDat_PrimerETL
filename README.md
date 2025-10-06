@@ -1,5 +1,62 @@
 # MiguelAPaezG_UCundi_ArqDat_PrimerETL
 
+
+
+# 💻 Análisis Socioeconómico del Programa Talento TI (2012–2017)
+
+## 🧭 Introducción
+
+Este proyecto forma parte de un proceso **ETL (Extracción, Transformación y Carga)** orientado al análisis del **perfil social, demográfico y económico** de los beneficiarios del programa **Talento TI (2012–2017)**, con base en los datos de inversión y convenios asociados.
+
+A partir del **monto comprometido por convenio**, se busca comprender la relación entre el **presupuesto asignado**, las **características sociales de la población beneficiaria** y la **distribución institucional y geográfica** de los recursos.
+
+---
+
+## 📊 Resumen del Proyecto
+
+El modelo fue construido y analizado en **Power BI**, integrando pasos de:
+- Limpieza y normalización de datos.
+- Estandarización de variables geográficas, académicas y demográficas.
+- Cálculo de indicadores derivados mediante **DAX**, incluyendo:
+  - **Presupuesto per cápita**
+  - **Z-Score del monto comprometido**
+  - **Ranking institucional y por programa**
+  - **Segmentación socioeconómica por estrato y género**
+
+### 🔍 Principales hallazgos
+
+- **Distribución por género:** el 69,22% de los recursos fue destinado a hombres y el 30,78% a mujeres, revelando una brecha de participación significativa.  
+- **Distribución por estrato:** los estratos **2, 3 y 1** concentraron el **86% del monto total**, evidenciando una orientación hacia sectores de menores ingresos.  
+- **Distribución geográfica:** la mayor inversión se concentró en **Bogotá**, seguida por departamentos como **Risaralda, Caldas y Santander**.  
+- **Instituciones con mayor asignación:** destacan el **Punto Vive Digital Sur Britalia**, la **Universidad de los Andes** y la **Pontificia Universidad Javeriana**, con los **Z-Score** más altos del estudio.  
+- **Programas académicos predominantes:** Ingeniería de Sistemas y afines concentraron la mayoría de los recursos, seguidos por programas técnicos y tecnológicos en áreas informáticas.  
+
+---
+
+## 🧮 Conclusiones
+
+El análisis permitió evidenciar **una correlación entre el nivel socioeconómico y la concentración presupuestal**, sugiriendo que, aunque el programa priorizó estratos bajos, las instituciones con mayor capacidad académica y tecnológica concentraron las inversiones más altas.
+
+El uso del **Z-Score y del presupuesto per cápita** permitió medir de forma objetiva la **intensidad de inversión** por beneficiario e institución, proporcionando una visión más equilibrada sobre la **eficiencia y equidad del programa**.
+
+---
+
+## 🧠 Tecnologías Utilizadas
+
+- **Power BI Desktop**
+- **Power Query (ETL)**
+- **DAX (cálculos estadísticos y normalización)**
+- **Excel / CSV (fuente de datos base)**
+
+---
+
+## 🗂️ Estructura del Proyecto
+
+--
+
+
+
+
 1. Eliminar las columans vacías:
 	- PROGRAMA
 	- ID BENEFICIO
