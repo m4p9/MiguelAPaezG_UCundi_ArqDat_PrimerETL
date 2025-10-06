@@ -34,6 +34,12 @@ El modelo fue construido y analizado en **Power BI**, integrando pasos de:
 
 ### 🔍 Principales hallazgos
 
+*(La siguiente figura ilustra uno de los 8 informes visuales en el PDF adjunto)*
+<br>
+<br>
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/dd03ed67-73db-4e7b-ba57-305b7d242eb1" />
+
+
 - **Distribución por género:** el 69,22% de los recursos fue destinado a hombres y el 30,78% a mujeres, revelando una brecha de participación significativa.  
 - **Distribución por estrato:** los estratos **2, 3 y 1** concentraron el **86% del monto total**, evidenciando una orientación hacia sectores de menores ingresos.  
 - **Distribución geográfica:** la mayor inversión se concentró en **Bogotá**, seguida por departamentos como **Risaralda, Caldas y Santander**.  
@@ -160,4 +166,5 @@ El uso del **Z-Score y del presupuesto per cápita** permitió medir de forma ob
     - Vista General del **Z Score por Programa** Académico del Programa Talento TI (2012 a 2017)
 19. **Exportar** los **informes** a PDF
 20. **Exportar** el **dataset transformado** ediante el ETL realizado
-    
+
+
